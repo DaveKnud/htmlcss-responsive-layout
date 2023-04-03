@@ -13,6 +13,8 @@ header{
 .container{
     width: 60%;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .container.header{
@@ -58,7 +60,38 @@ header{
 
 /* developer section */
 
+.container.developer{
+    margin-top: 5%;;
+    margin-bottom: 5%;
+    
+}
+.col.main{
+    display: flex;
+    justify-content: space-between;
+}
 
+.main-left,
+.main-right{min-height: 100px;
+    width: 47%;
+    background-color:aliceblue;
+    border:1px solid black}
+
+img{max-width: 100%;
+
+}
+
+
+.container.developer .col{
+    min-height: 250px;
+    min-width: calc(93% / 3);
+background-color:blueviolet;
+border:1px solid black;
+margin:1%}
+
+.container.developer .col.main{
+    min-width:calc(97% - (100% / 3) );
+    
+}
 
 
 /* debug */
