@@ -239,11 +239,16 @@ width: 100%;
     margin-bottom: 4%;
 }
 
-.row-testimonial h1{
+.row-testimonial h1,
+.row-benefits h1{
     margin-top: 4%;
-    margin-bottom: 4%;
     color:#9792E4;
+    margin-bottom: 4%;
+}
+
+h1{
     font-size: 2em;
+    
 }
 
 .col.testimonial.white{
@@ -293,11 +298,70 @@ width: 100%;
 
 .img-testimonial,
 .text-testimonial{
-    width: 95%;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
     
 }
 
 }
+
+.row-benefits{
+    display: flex;
+    flex-wrap:wrap;
+    width: 60%;
+    margin: 0 auto;
+    min-height: 200px;
+    padding-top: 3%;
+    margin-bottom: 4%;
+    text-align: center;
+    background-color:#B5DDFF;
+    gap:2%
+}
+
+
+.col.benefits.center{
+    width: 100%;
+    margin:0 auto;
+    min-height: 50px;
+    padding-top: 3%;
+    text-align: center;
+    background-color: bisque;
+}
+
+.row-benefits h1{
+    color:white;
+    margin-bottom: 0%;
+}
+
+.col.benefits{
+    width: calc(92% / 3);
+    margin:0 auto;
+    min-height: 300px;
+    padding-top: 3%;
+    text-align: start;
+    background-color: bisque;
+    margin-top: 2%;
+}
+
+/* tablet version */
+@media all and (max-width:768px) {
+    .row-benefits{width: 90%;
+    margin: 0 auto;}
+
+    .col.benefits{
+        width: 48%;
+    }
+    
+}
+
+@media all and (max-width:468px) {
+    .col.benefits{
+        width: 100%;
+    }
+}
+
+
 
 
 /* debug */
@@ -323,6 +387,36 @@ background-color:#453db6;
 section{
     background-color:hotpink;
 }
+
+.row-aboutus{
+    width: 60%;
+    min-height: 100px;
+    margin: 0 auto;
+    background-color:khaki;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col.aboutus{
+    min-height: 250px;
+    background-color:aquamarine;
+}
+.col.aboutus.left{
+    width: 60%;
+}
+
+.col.aboutus.right{
+    width: 25%;
+    margin-right: 10%;
+}
+
+.col.aboutus.right img{
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    border-radius:50%;
+}
+
 
 
 
