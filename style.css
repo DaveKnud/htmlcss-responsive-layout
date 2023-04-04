@@ -361,6 +361,112 @@ h1{
     }
 }
 
+/* About us section */
+
+.row-aboutus{
+    width: 60%;
+    min-height: 100px;
+    margin: 0 auto;
+    background-color:khaki;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col.aboutus{
+    min-height: 250px;
+    background-color:aquamarine;
+}
+.col.aboutus.left{
+    width: 70%;
+}
+
+.col.aboutus.right{
+    width: 25%;
+}
+
+.col.aboutus.right img{
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+    border-radius:50%;
+}
+
+/* versione Tablet */
+
+@media all and (max-width:768px) {
+    .row-aboutus{
+        width: 90%;
+    }
+}
+
+/* versione smartphone */
+@media all and (max-width:480px) {
+
+    .row-aboutus{
+      
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col.aboutus.left{
+        width: 100%;
+    }
+
+    .col.aboutus.right{
+        width: 100%;
+    }
+
+    .col.aboutus.right img{
+        max-width: 70%;
+    }
+
+}
+
+/* Call to section */
+.row-call-to-section{
+    width: 60%;
+    min-height: 100px;
+    margin: 0 auto;
+    background-color:khaki;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col.call-to-section{
+    width: 100%;
+    margin:0 auto;
+    min-height: 250px;
+    background-color:aquamarine;
+    text-align: center;
+}
+
+@media all and (max-width:768px) {
+    .row-call-to-section{
+        width: 90%;
+    }
+    
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #222;
+    height: 200px;
+    font-size: small;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.container-footer{
+    width: 30%;
+    margin: 0 auto ;
+}
+
+
+
+
+
+
 
 
 
@@ -388,34 +494,6 @@ section{
     background-color:hotpink;
 }
 
-.row-aboutus{
-    width: 60%;
-    min-height: 100px;
-    margin: 0 auto;
-    background-color:khaki;
-    display: flex;
-    justify-content: space-between;
-}
-
-.col.aboutus{
-    min-height: 250px;
-    background-color:aquamarine;
-}
-.col.aboutus.left{
-    width: 60%;
-}
-
-.col.aboutus.right{
-    width: 25%;
-    margin-right: 10%;
-}
-
-.col.aboutus.right img{
-    max-width: 100%;
-    margin: 0 auto;
-    padding-top: 0;
-    border-radius:50%;
-}
 
 
 
